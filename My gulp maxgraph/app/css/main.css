@@ -1,0 +1,81 @@
+.custom-checkbox__field:checked + .custom-checkbox__content::after {
+  opacity: 1; }
+
+.custom-checkbox__field:focus + .custom-checkbox__content::before {
+  outline: 2px solid #f00;
+  outline-offset: 2px; }
+
+.custom-checkbox__field:disabled + .custom-checkbox__content {
+  opacity: 0.4;
+  pointer-events: none; }
+
+.header {
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto; }
+  .header__inner {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 200px 700px 150px;
+    grid-auto-rows: 58px;
+    justify-content: space-between;
+    align-items: center; }
+  .header__dots {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: -webkit-min-content;
+    grid-auto-columns: min-content;
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
+    gap: 0 15px; }
+  .header__dot-1 {
+    width: 15px;
+    height: 15px;
+    background: #f96057;
+    border-radius: 50%;
+    cursor: pointer; }
+  .header__dot-2 {
+    width: 15px;
+    height: 15px;
+    background: #f8ce52;
+    border-radius: 50%;
+    cursor: pointer; }
+  .header__dot-3 {
+    width: 15px;
+    height: 15px;
+    background: #5fcf65;
+    border-radius: 50%;
+    cursor: pointer; }
+  .header__nav {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: -webkit-min-content;
+    grid-auto-columns: min-content;
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
+    justify-content: space-between;
+    align-items: center; }
+  .header__ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: -webkit-min-content;
+    grid-auto-columns: min-content;
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
+    gap: 0px; }
+  .header__li {
+    width: 100px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .header__a {
+    white-space: nowrap;
+    padding: 20px 28px;
+    color: white; }
+    .header__a:hover {
+      border-bottom: 2px solid white;
+      padding-bottom: 18px; }
+
+/*# sourceMappingURL=main.css.map */
